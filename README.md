@@ -13,7 +13,9 @@
 ### Діаграма класів та стану
 
 ![UML](FactoryMethodClass.png)
-![UML](FactoryMethodSequence.png)
+##### Class Diagram Factory Method
+![UML](FactoryMethodState.png)
+##### State Diagram Factory Method
 
 ### Опис основних структурних елементів :
 - **Product** - загальний інтерфейс об’єктів, які може створювати творець та його підкласи;
