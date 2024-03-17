@@ -1,0 +1,16 @@
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\bin\Debug\net8.0-windows\Factory Method.exe
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\bin\Debug\net8.0-windows\Factory Method.deps.json
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\bin\Debug\net8.0-windows\Factory Method.runtimeconfig.json
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\bin\Debug\net8.0-windows\Factory Method.dll
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\bin\Debug\net8.0-windows\Factory Method.pdb
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory_Method.Form1.resources
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.csproj.GenerateResource.cache
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.AssemblyInfoInputs.cache
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.AssemblyInfo.cs
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.csproj.CoreCompileInputs.cache
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.dll
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\refint\Factory Method.dll
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.pdb
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\Factory Method.genruntimeconfig.cache
+D:\VS Community\C#.NET_2\Factory Method\Factory Method\obj\Debug\net8.0-windows\ref\Factory Method.dll
