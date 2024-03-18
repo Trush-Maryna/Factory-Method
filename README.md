@@ -10,13 +10,13 @@
 - *Розширюваності частини фреймворку чи бібліотеки.* Якщо є ієрархія класів і необхідно делегувати відповідальність за створення екземплярів об’єктів підкласам, вони можуть забезпечувати власну реалізацію фабричного методу для створення об’єктів, дотримуючись загальної структури, визначеної батьківським класом.
 - *Економлення системних ресурсів.* Замість того, щоб безпосередньо створювати об’єкти, клас покладається на фабричний метод для отримання екземплярів своїх залежностей. Це полегшує заміну залежностей або налаштування системи з різними реалізаціями, не змінюючи клас, який їх використовує.
 
-### Діаграма класів та стану
+### Діаграми класів та стану
 
 ##### Class Diagram Factory Method:
-![UML](FactoryMethodClass.png)
+![Class](FactoryMethodClass.png)
 
 ##### State Diagram Factory Method:
-![UML](FactoryMethodState.png)
+![State](FactoryMethodState.png)
 
 ### Опис основних структурних елементів :
 - **Product** - загальний інтерфейс об’єктів, які може створювати творець та його підкласи;
@@ -25,8 +25,8 @@
 - **ConcreteCreator** по-своєму реалізує фабричний метод, виробляючи ті чи інші конкретні продукти.
 ##### На діаграмі стану можна побачити конкретні класи по шаблону Factory method.
 
-### Джерела інформації
-##### - [URL1](https://refactoring.guru/design-patterns/factory-method)
-##### - [URL2](https://blog.stackademic.com/design-patterns-factory-method-2f7b0733286d)
-##### - [URL3](https://www.baeldung.com/java-factory-pattern)
+### Джерела інформації:
+##### - [refactoring.guru](https://refactoring.guru/design-patterns/factory-method)
+##### - [blog.stackademic.com](https://blog.stackademic.com/design-patterns-factory-method-2f7b0733286d)
+##### - [www.baeldung.com](https://www.baeldung.com/java-factory-pattern)
 ****
