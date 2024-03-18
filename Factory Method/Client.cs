@@ -1,5 +1,3 @@
-using System.Windows.Forms;
-
 namespace Factory_Method
 {
     public partial class Client : Form
