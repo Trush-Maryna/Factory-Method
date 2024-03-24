@@ -13,10 +13,51 @@
 ### Діаграма класів та стану
 
 ##### Class Diagram Factory Method:
-![UML](FactoryMethodClass.png)
+```mermaid
+---
+title: Factory Method
+---
+classDiagram
+    Creator <|-- ConcreteCreator
+    IProduct <|.. ConcreteProduct: realization
+    ConcreteProduct <|-- ConcreteCreator: return new ConcreteProduct()
+    note for Creator "IProduct p = factoryMethod() \n p.someOperation()"
+    Creator : ...
+    ConcreteCreator : ...
+    class Creator{
+      +factoryMethod() IProduct
+      +someOperation()
+    }
+    class ConcreteCreator{
+      +factoryMethod() IProduct
+    }
+    class IProduct{
+        <<interface>>
+        +someOperation()
+    }
+```
 
 ##### State Diagram Factory Method:
-![UML](FactoryMethodState.png)
+```mermaid
+---
+title: Factory Method
+---
+stateDiagram
+    direction LR
+    [*] --> Client
+    Client --> [*]
+
+    state Client {
+        [*] --> Load
+        Load --> Ready
+        Ready --> [*]
+        Ready --> Create
+        Create --> ShowMessage
+        ShowMessage --> ShowMessageWithImage
+        ShowMessageWithImage --> ClearImage
+        ClearImage --> Ready
+    }
+```
 
 ### Опис основних структурних елементів :
 - **Product** - загальний інтерфейс об’єктів, які може створювати творець та його підкласи;
