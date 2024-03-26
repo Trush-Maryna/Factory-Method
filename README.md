@@ -43,20 +43,14 @@ classDiagram
 title: Factory Method
 ---
 stateDiagram
-    direction LR
-    [*] --> Client
-    Client --> [*]
-
-    state Client {
-        [*] --> Load
-        Load --> Ready
-        Ready --> [*]
-        Ready --> Create
-        Create --> ShowMessage
-        ShowMessage --> ShowMessageWithImage
-        ShowMessageWithImage --> ClearImage
-        ClearImage --> Ready
-    }
+    [*] --> Load
+    Load --> Ready
+    Ready --> [*]
+    Ready --> Create
+    Create --> ShowMessage
+    ShowMessage --> ShowMessageWithImage
+    ShowMessageWithImage --> ClearImage
+    ClearImage --> Ready
 ```
 
 ### Опис основних структурних елементів :
