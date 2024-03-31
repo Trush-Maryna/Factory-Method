@@ -1,0 +1,3 @@
+interface ICreator {
+    IMotorVehicle create();
+}
