@@ -14,7 +14,7 @@
 
 ##### Class Diagram Factory Method:
 ```mermaid
---- 
+---
 title: Factory Method
 ---
 classDiagram
