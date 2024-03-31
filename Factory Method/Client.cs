@@ -3,7 +3,7 @@ namespace Factory_Method
     public partial class Client : Form
     {
         private ICreator creator;
-        public static Client Instance;
+        public static Client? Instance;
 
         public Client()
         {
@@ -17,15 +17,18 @@ namespace Factory_Method
             listObject.Items.Add("Car");
         }
 
-        private async void listObject_SelectedIndexChanged(object sender, EventArgs e)
+        private void listObject_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listObject.SelectedItem.ToString() == "Motorcycle")
+            switch (listObject.SelectedItem.ToString())
             {
-                creator = new MotorcycleCreator();
-            }
-            else if (listObject.SelectedItem.ToString() == "Car")
-            {
-                creator = new CarCreator();
+                case "Motorcycle":
+                    creator = new MotorcycleCreator();
+                    break;
+                case "Car":
+                    creator = new CarCreator();
+                    break;
+                default:
+                    break;
             }
             string typeName = listObject.SelectedItem.ToString();
             IMotorVehicle vehicle = creator.Create();
